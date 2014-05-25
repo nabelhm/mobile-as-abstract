@@ -1,5 +1,15 @@
 {
     "name": "cubalider/mobile",
+    "description": "Provides an abstraction for a mobile manager",
+    "type": "library",
+    "keywords": ["mobile"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yosmany Garcia",
+            "email": "yosmanyga@gmail.com"
+        }
+    ],
     "require": {
         "php": ">=5.3.0"
     },
