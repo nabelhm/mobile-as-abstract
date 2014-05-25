@@ -2,6 +2,9 @@
 
 namespace Cubalider\Component\Mobile\Manager;
 
+/**
+ * @author Yosmany Garcia <yosmanyga@gmail.com>
+ */
 interface MobileManagerInterface
 {
     /**
