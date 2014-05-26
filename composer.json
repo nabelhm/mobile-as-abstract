@@ -1,5 +1,5 @@
 {
-    "name": "cubalider/mobile",
+    "name": "cubalider/mobile-as-abstract",
     "description": "Provides an abstraction for a mobile manager",
     "type": "library",
     "keywords": ["mobile"],
