@@ -1,6 +1,6 @@
 {
     "name": "cubalider/mobile-as-abstract",
-    "description": "Provides an abstraction for a mobile manager",
+    "description": "Provides an abstraction for mobile concepts",
     "type": "library",
     "keywords": ["mobile"],
     "license": "MIT",
