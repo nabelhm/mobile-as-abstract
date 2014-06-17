@@ -2,33 +2,35 @@
 
 namespace Cubalider\Component\Mobile\Manager;
 
+use Cubalider\Component\Mobile\Model\Mobile;
+
 /**
  * @author Yosmany Garcia <yosmanyga@gmail.com>
  */
 interface MobileManagerInterface
 {
     /**
-     * Picks a mobile using given criteria
+     * Adds given mobile.
+     *
+     * @param Mobile $mobile
+     *
+     * @return void
+     */
+    public function add(Mobile $mobile);
+
+    /**
+     * Picks a mobile using given criteria.
      *
      * @param mixed $criteria
      *
-     * @return mixed
+     * @return Mobile|null The mobile or null if nothing is found
      */
     public function pick($criteria);
 
     /**
-     * Adds given mobile
+     * Removes given mobile.
      *
-     * @param mixed $mobile
-     *
-     * @return void
-     */
-    public function add($mobile);
-
-    /**
-     * Remove given mobile
-     *
-     * @param mixed $mobile
+     * @param Mobile $mobile
      *
      * @return void
      */
