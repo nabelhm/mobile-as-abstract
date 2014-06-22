@@ -1,6 +1,6 @@
 {
     "name": "cubalider/mobile-as-abstract",
-    "description": "Provides an abstraction for mobile concepts",
+    "description": "This library provides an abstraction for mobile concepts",
     "type": "library",
     "keywords": ["mobile"],
     "license": "MIT",
