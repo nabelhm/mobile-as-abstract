@@ -13,8 +13,6 @@ interface MobileManagerInterface
      * Adds given mobile.
      *
      * @param Mobile $mobile
-     *
-     * @return void
      */
     public function add(Mobile $mobile);
 
@@ -31,8 +29,6 @@ interface MobileManagerInterface
      * Removes given mobile.
      *
      * @param Mobile $mobile
-     *
-     * @return void
      */
     public function remove($mobile);
 }
